@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+env/
+venv/
+ENV/
+.venv
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database (DO NOT COMMIT)
+db.sqlite3
+*.db
+*.sqlite
+
+# Environment Variables (SENSITIVE DATA)
+.env
+.env.local
+.env.*.local
+
+# Media & Upload Files (User data)
+media/
+/media
+
+# Log Files
+*.log
+logs/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Temporary Files
+*.tmp
+*.temp
+*.cache
