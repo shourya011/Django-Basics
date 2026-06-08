@@ -1,4 +1,10 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from employees.models import Employee
+
 def home(request):
-    return render(request,'home.html')
+    employee = Employee.objects.all()
+    context = {
+        'employee': employee,
+    }
+    return render(request,'home.html',context)

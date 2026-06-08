@@ -9,3 +9,6 @@ class Employee(models.Model):
     phone = models.CharField(max_length=12, blank=True)
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateField(auto_now=True)
+
+    def __str__(self):
+        return self.first_name
