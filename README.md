@@ -112,10 +112,10 @@ django-basics/
 
 - [x] Environment Setup
 - [x] Django Installation
-- [ ] URL Routing
-- [ ] Views
-- [ ] Templates
-- [ ] Models
+- [x] URL Routing
+- [x] Views
+- [x] Templates
+- [x] Models
 - [ ] Forms
 - [ ] Authentication
 - [ ] Deployment
